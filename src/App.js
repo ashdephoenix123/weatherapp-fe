@@ -50,7 +50,7 @@ const App = () => {
   return (
     <div className="App">
       <form onSubmit={sendData} action="" method="POST">
-        <input type="text" name="city" value={city} onChange={updateCity} required />
+        <input type="text" name="city" placeholder="Enter City" value={city} onChange={updateCity} required />
         <button type="submit">check</button>
       </form>
 
