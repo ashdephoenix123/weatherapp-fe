@@ -14,7 +14,7 @@ const App = () => {
     try {
       setDetails({isLoading: true, cod: 400})
 
-      const response = await fetch('https://weather-app-be.onrender.com/', {
+      const response = await fetch('https://weatherapp-be.onrender.com/', {
         method: "POST",
         mode: "cors",
         headers: {
